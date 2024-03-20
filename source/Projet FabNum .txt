@@ -1,0 +1,13 @@
+Projet FabNum :
+Appareil de Lecture
+
+Liste des potentiel composant:
+-Arduino UNO ou NANO (à voir en fonction des stock et des nécéssité)
+-Module de Caméra (recommandé le OV7670)
+-Haut-parleur
+-Bouttons
+
+Logiciel et Librairies :
+-Arduino IDE ou Processing
+-OpenCV
+-Talkie librarie
