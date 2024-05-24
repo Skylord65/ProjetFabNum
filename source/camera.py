@@ -9,11 +9,10 @@ camera = PiCamera()
 
 # Ajustements des paramètres pour une meilleure qualité d'image
 camera.resolution = (1280, 720)  # Résolution HD
-camera.framerate = 30  # Taux de trame
-camera.contrast = 10  # Ajustement du contraste (0 à 100)
-camera.brightness = 60  # Ajustement de la luminosité (0 à 100)
-camera.sharpness = 100  # Ajustement de la netteté (0 à 100)
-camera.ISO = 800  # Ajustement de l'ISO pour une meilleure sensibilité à la lumière
+camera.contrast = 40  # Ajustement du contraste (0 à 100)
+camera.brightness = 58  # Ajustement de la luminosité (0 à 100)
+camera.sharpness = 40  # Ajustement de la netteté (0 à 100)
+camera.saturation = 40  # Ajustement de la saturation
 
 # Prend une photo avec la caméra après un délai de 3 secondes
 def take_photo_with_delay(filename):
